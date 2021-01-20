@@ -72,7 +72,7 @@ hash(int letter)
     else if (letter >= 97 && letter <= 122)
         n = letter - 96;
 
-    // converts apostrophe to 27
+    // converts apostrophe to 0
     else if (letter == '\'')
         n = 0;
 
